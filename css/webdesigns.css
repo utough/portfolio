@@ -24,7 +24,7 @@ header {
 	background-color: #000;
 }
 
-.page-top-border p a{
+.page-top-border p a {
 	display: block;
 	color: #fff;
 	font-size: 0.8em;
@@ -252,66 +252,66 @@ footer p {
 		width: 100%;
 		margin: 0 auto;
 	}
-	
+
 	.top-page-box h1 {
 		width: 100%;
 		font-size: 2.5em;
 	}
-	
+
 	.wannauseflex {
 		margin-top: 4%;
 	}
-	
+
 	.navigation-dsgnpage {
 		width: 10%;
 		z-index: 100;
 	}
-	
+
 	.navigation-dsgnpage nav ul li a {
 		font-size: 1.5em;
 		background-color: #ccc;
 		padding: 10%;
 	}
-	
-	
-	
+
+
+
 	.designs-box {
 		width: 90%;
 		padding: 0;
 	}
-	
+
 	.OMAR-box {
 		height: 100px;
 	}
-	
+
 	.tanaka-box {
 		height: 250px;
 	}
-	
+
 	.meja {
 		height: 250px
 	}
-	
+
 	.title {
 		height: 250px;
 	}
-	
+
 	.title h2 {
 		font-size: 1.5em;
 	}
-	
+
 	.KirsTen-box {
 		height: 100px;
 	}
-	
+
 	.maru-box {
 		height: 150px
 	}
-	
+
 	main {
 		width: 100%
 	}
-	
+
 	.OMAR-box .caption {
 		line-height: 9;
 		font-size: 0.5em
@@ -326,7 +326,7 @@ footer p {
 		line-height: 14;
 		font-size: 0.2em;
 	}
-	
+
 	.KirsTen-box .caption {
 		line-height: 10;
 		font-size: 0.2em;
@@ -336,13 +336,12 @@ footer p {
 		line-height: 18;
 		font-size: 0.2em;
 	}
-	
+
 	.mask {
 		opacity: 1;
 	}
-	
+
 	footer {
 		margin-top: 14%;
 	}
 }
-
