@@ -309,12 +309,14 @@ footer p {
 	}
 
 	main {
-		width: 100%
+		width: 100%;
+		padding: 5%;
 	}
 
 	.OMAR-box .caption {
 		line-height: 9;
-		font-size: 0.5em
+		font-size: 0.5em;
+		height: 100%;
 	}
 
 	.tanaka-box .caption {
@@ -330,6 +332,7 @@ footer p {
 	.KirsTen-box .caption {
 		line-height: 10;
 		font-size: 0.2em;
+		height: 100%;
 	}
 
 	.maru-box .caption {
