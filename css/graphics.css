@@ -10,6 +10,10 @@ body {
 	overflow-y: scroll;
 }
 
+.Allwrapper {
+    width: 100%;
+}
+
 .top-page-box {
 	padding: 5%;
 }
@@ -39,8 +43,7 @@ header {
 
 /*タイトル・ナビゲーション部分*/
 .top-page-box {
-	width;
-	100vw;
+	width: 100%;
 	box-sizing: border-box;
 }
 
@@ -64,7 +67,7 @@ header {
 
 
 .navigation-dsgnpage {
-	width: 20%;
+	width: 3%;
 }
 
 .navigation-dsgnpage nav ul li {
@@ -94,7 +97,8 @@ header {
 
 /*メイン*/
 .graphics {
-	width: 80%;
+	width: 97%;
+    padding: 0 10%;
 }
 
 .graphics h2 {
@@ -259,12 +263,10 @@ header {
 /*フッター*/
 
 
-footer p small {
-	display: block;
+footer p {
 	text-align: center;
-	margin-top: 4%;
 	font-family: serif;
-	margin: 0 auto;
+    padding: 1%;
 }
 
 
@@ -319,7 +321,7 @@ footer p small {
 	}
 
 	.summer-sale .logo-outline {
-		margin-top: -20%;
+		margin-top: -30%;
 	}
 
 	.cebu-island {
@@ -337,7 +339,7 @@ footer p small {
 	}
 
 	.cebu-island .logo-outline {
-		margin-top: -15%;
+		margin-top: -25%;
 	}
 
 	.akan-spa .text-box {

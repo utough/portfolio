@@ -10,8 +10,13 @@ body {
 	overflow-y: scroll;
 }
 
+.Allwrapper {
+    width: 100%;
+}
+
 .top-page-box {
 	padding: 5%;
+    box-sizing: border-box;
 }
 
 header {
@@ -41,7 +46,7 @@ header {
 
 /*タイトル・ナビゲーション部分*/
 .top-page-box {
-	width: 100vw;
+	width: 100%;
 	box-sizing: border-box;
 }
 
@@ -176,11 +181,15 @@ header {
 
 /*フッター*/
 
+footer {
+    box-sizing: border-box;
+}
+
 footer p {
 	text-align: center;
-	margin-top: 4%;
 	font-family: serif;
-	margin-top: 20%;
+    padding: 1%;
+    box-sizing: border-box;
 }
 
 
