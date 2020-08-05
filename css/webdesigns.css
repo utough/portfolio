@@ -399,11 +399,9 @@ footer p {
 		padding: 10%;
 	}
 
-
-
 	.designs-box {
 		width: 90%;
-		padding: 0;
+		padding: 10%;
         box-sizing: border-box;
 	}
 
@@ -437,8 +435,8 @@ footer p {
 
 	main {
 		width: 100%;
-		padding: 5%;
-	}
+		padding: 3%;
+    }
 
 	.OMAR-box .caption {
 		line-height: 9;
@@ -470,6 +468,19 @@ footer p {
 	.mask {
 		opacity: 1;
 	}
+    
+    .OMAR-box img {
+        height: 100%;
+        width: inherit;
+    }
+    
+    .KirsTen-box img {
+        margin-top: 0;
+    }
+    
+    .maru-box .mask {
+        margin-top: -5%;
+    }
 
 	footer {
 		margin-top: 14%;
