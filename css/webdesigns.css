@@ -2,7 +2,16 @@
 
 * {
 	padding: 0;
-	margin: 0;
+	margin: 0;]
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }
 
 body {
@@ -45,12 +54,12 @@ header {
 
 /*タイトル・ナビゲーション部分*/
 .top-page-box {
-	width;
-	100vw;
+	width: 100%;
 	box-sizing: border-box;
 }
 
 .top-page-box h1 {
+    display: block;
 	width: 50%;
 	font-size: 5em;
 	font-weight: bold;
@@ -68,7 +77,107 @@ header {
 
 }
 
+.wannauseflex2 {
+    width: 100%;
+    display: flex;
+}
 
+/*モーダル・hamburgerメニュー*/
+.modal-menus {
+    margin-left: auto;
+    margin-right: 5%
+}
+
+.content  {
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    text-align: right;
+    padding: 70%;
+}
+
+.content a:nth-child(1) {
+    margin-right: 40%;
+}
+
+.content a i {
+    color: #000;
+}
+
+.modal {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 1000;
+}
+
+.modal_bg {
+    background-color: rgba(0,0,0,0.8);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.modal_content {
+    background-color: #fff;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    transform: translate(-50%,-50%);
+}
+
+#modal01 .modal_content p {
+    font-size: 2em;
+    font-family: serif;
+} 
+
+#modal01 .modal_content a {
+    display: block;
+    color: #000;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#modal01 .modal_content a i {
+    display: inline-block;
+    color: #000;
+    padding: 3%;
+}
+
+#modal01 ul li .js-modal-close {
+    margin-top: 10%;
+}
+
+#modal02 p {
+    font-family: serif;
+}
+
+#modal02 .comefromSapporo {
+    font-size: 0.7em;
+}
+
+#modal02 .mynameisUtah {
+    font-size: 2.4em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#modal02 .modal_content .myHistry{
+    margin-bottom: 10%;
+}
+
+#modal02 .js-modal-close {
+    color: #000;
+}
+
+/*左側ナビ*/
 .navigation-dsgnpage {
 	width: 20%;
 }
@@ -106,7 +215,7 @@ header {
 
 .designs-box {
 	width: 70%;
-	padding: 10%
+	padding: 10%;
 }
 
 .designs-box a:hover .mask {
@@ -261,6 +370,19 @@ footer p {
 		width: 100%;
 		font-size: 2.5em;
 	}
+    
+    .modal-menus {
+        margin-right: 20%;
+    }
+    
+    .modal_content {
+        width: 90%;
+    }
+    
+    #modal01 .modal_content p {
+        font-size: 1.5em;
+    }
+
 
 	.wannauseflex {
 		margin-top: 4%;
@@ -282,6 +404,7 @@ footer p {
 	.designs-box {
 		width: 90%;
 		padding: 0;
+        box-sizing: border-box;
 	}
 
 	.OMAR-box {

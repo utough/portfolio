@@ -24,7 +24,7 @@ body {
 
 .top-page-box {
 	/*    ページ幅調整    */
-	padding: 2%;
+	padding: 0 2% 2% 2%;
 	box-sizing: border-box;
 }
 
@@ -49,6 +49,7 @@ header {
 
 .from-and-age {
 	width: 15%;
+    margin-top: 3%;
 	margin-right: auto;
 }
 
@@ -315,7 +316,7 @@ footer p {
 	}
     
     .modal_content {
-        width: 60%;
+        width: 90%;
     }
     
     #modal01 .modal_content p {
