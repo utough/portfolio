@@ -398,10 +398,11 @@ footer p {
     
     .modal-menus {
         margin-right: 20%;
+        width: 15%;
     }
     
     .modal_content {
-        width: 90%;
+        width: 80%;
     }
     
     #modal01 .modal_content p {
