@@ -84,8 +84,9 @@ header {
 /*モーダル・hamburgerメニュー*/
 .modal-menus {
     margin-left: auto;
+    margin-top: -4%;
     margin-right: 5%;
-    width: 7%;
+    width: 10%;
 }
 
 .content  {
@@ -218,7 +219,7 @@ header {
 
 .designs-box {
 	width: 80%;
-	padding: 10%;
+	padding: 10% 0 10% 10%;
 }
 
 .designs-box a:hover .mask {
