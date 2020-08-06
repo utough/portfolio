@@ -2,8 +2,7 @@
 
 * {
 	padding: 0;
-	margin: 0;]
-    box-sizing: border-box;
+	margin: 0;
 }
 
 a {
@@ -205,16 +204,19 @@ header {
 
 .wannauseflex {
 	display: flex;
+    width: 100%;
 }
 
 
 /*メインセクション*/
 .main {
 	margin-left: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .designs-box {
-	width: 70%;
+	width: 80%;
 	padding: 10%;
 }
 
@@ -373,6 +375,7 @@ footer p {
     
     .modal-menus {
         margin-right: 20%;
+        box-sizing: border-box;
     }
     
     .modal_content {
@@ -401,7 +404,7 @@ footer p {
 
 	.designs-box {
 		width: 90%;
-		padding: 10%;
+		padding: 2%;
         box-sizing: border-box;
 	}
 
@@ -435,7 +438,8 @@ footer p {
 
 	main {
 		width: 100%;
-		padding: 3%;
+		padding-left: 4%;
+        box-sizing: border-box;
     }
 
 	.OMAR-box .caption {
