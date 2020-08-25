@@ -20,6 +20,7 @@ body {
 
 .Allwrapper {
     width: 100%;
+	overflow: hidden;
 }
 
 .top-page-box {
@@ -175,9 +176,7 @@ header {
 }
 
 
-.navigation-dsgnpage {
-	width: 3%;
-}
+
 
 .navigation-dsgnpage nav ul li {
 	list-style-type: none;
