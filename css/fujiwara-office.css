@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+	max-width: 100vw;
+	overflow-y: scroll;
+}
+
+.Allwrapper {
+    width: 100%;
+}
+
+.top-page-box {
+	padding: 5%;
+}
+
+header {
+	width: 100%;
+}
+
+/*全ページ共通 ヘッド帯*/
+
+.page-top-border {
+	background-color: #000;
+}
+
+.page-top-border p a {
+	display: block;
+	color: #fff;
+	font-size: 0.8em;
+	padding: 0.3%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.page-top-border p a:hover {
+	opacity: 0.2;
+}
+
+
+
+/*タイトル・ナビゲーション部分*/
+.top-page-box {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.top-page-box h1 {
+	width: 50%;
+	font-size: 5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 #000, -1px -1px 0 #000,
+		-1px 1px 0 #000, 1px -1px 0 #000,
+		0px 1px 0 #000, 0-1px 0 #000,
+		-1px 0 0 #000, 1px 0 0 #000;
+}
+
+.top-page-box h1::after {
+	content: "|";
+	color: #393939;
+	margin-left: 4%;
+}
+
+.top-page-box h1 a{
+    color: #fff;
+}
+
+.top-page-box h2 {
+	font-size: 3em;
+	line-height: 3;
+}
+
+.page-title {
+	display: flex;
+}
+
+
+.navigation-dsgnpage {
+	width: 20%;
+}
+
+.navigation-dsgnpage nav ul li {
+	list-style-type: none;
+}
+
+.navigation-dsgnpage nav ul li a {
+	margin-top: 30%;
+	color: #393939;
+	text-decoration: none;
+	writing-mode: tb-rl;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.navigation-dsgnpage nav ul li a:hover {
+	color: #fff;
+	text-shadow: 1px 1px 0 #000, -1px -1px 0 #000,
+		-1px 1px 0 #000, 1px -1px 0 #000,
+		0px 1px 0 #000, 0-1px 0 #000,
+		-1px 0 0 #000, 1px 0 0 #000;
+}
+
+.wannauseflex {
+	display: flex;
+}
+
+/*オマール-ページ解説*/
+.shop-inform .text-box {
+	width: 80%;
+	margin: 3% auto;
+}
+
+.shop-inform .text-box p {
+	border-bottom: 3px solid #ccc;
+	width: 100%;
+	text-align: center;
+}
+
+.design-presen {
+	width: 90%;
+	display: flex;
+}
+
+.design-presen .text-box {
+	width: 40%;
+}
+
+.text-box h3 {
+	font-size: 1.4em;
+}
+
+.text-box p {
+	letter-spacing: 0.2em;
+	line-height: 2;
+	font-family: cursive;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+
+.text-box div {
+	background-color: #ccc;
+	margin: 10% 1% 1% 1%;
+	padding: 0.5em;
+	box-sizing: border-box;
+}
+
+.text-box div:nth-child(3) p {
+	margin-top: 1em;
+}
+
+.webpage-demo {
+	margin-top: 10%;
+}
+
+.webpage-demo a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #393939;
+}
+
+.webpage-demo a:hover {
+	opacity: 0.2;
+}
+
+.design-presen .img-box {
+	width: 60%;
+	margin-top: 4%;
+    margin-left: 8%
+}
+
+.design-presen img {
+	width: 100%;
+}
+
+
+
+
+
+/*フッター*/
+
+footer p {
+	text-align: center;
+	font-family: serif;
+    padding: 1%;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+	header {
+		line-height: 5;
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.bg-SP {
+		width: 100%;
+		margin: 0 auto;
+		
+	}
+
+	.top-page-box h1 {
+		width: 70%;
+		font-size: 2.5em;
+	}
+
+	.top-page-box h2 {
+		width: 30%;
+		font-size: 1.5em;
+		line-height: 2.5;
+	}
+
+	.wannauseflex {
+		margin-top: 4%;
+	}
+
+	.navigation-dsgnpage {
+		width: 10%;
+		z-index: 100;
+	}
+
+	.navigation-dsgnpage nav ul li a {
+		font-size: 1.5em;
+		background-color: #ccc;
+		padding: 10%;
+	}
+
+	main {
+		font-size: 0.8em;
+		margin: 2%;
+	}
+    
+    .design-presen .img-box {
+        margin-left: 8%;
+		display: none;
+    }
+    
+    .design-presen .text-box {
+        margin-left: 15%;
+        width: 100%;
+    }
+
+
+
+}

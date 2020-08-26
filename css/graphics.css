@@ -211,13 +211,13 @@ header {
 
 .graphics h2 {
 	font-size: 1.4em;
-	font-family: cursive;
+	font-family: inherit;
 }
 
 .graphics p {
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
 	line-height: 2;
-	font-family: cursive;
+	font-family: inherit;
 	text-align: justify;
 	text-justify: inter-ideograph;
 }

@@ -13,17 +13,18 @@ li {
     list-style-type: none;
 }
 
+
 body {
-	max-width: 100vw;
+	max-width: 100%;
 	overflow-y: scroll;
 }
-
 .Allwrapper {
     width: 100%;
+	overflow: hidden;
 }
 
 .top-page-box {
-	padding: 5%;
+	padding: 3% 3% 0 3%;
 }
 
 header {
@@ -207,19 +208,20 @@ header {
 .wannauseflex {
 	display: flex;
     width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
 }
 
 
 /*メインセクション*/
 .main {
 	margin-left: 0;
-    width: 100%;
     box-sizing: border-box;
 }
 
 .designs-box {
 	width: 80%;
-	padding: 10% 0 10% 10%;
+	padding: 5% 0 5% 10%;
 }
 
 .designs-box a:hover .mask {
@@ -264,6 +266,10 @@ header {
 }
 
 .maru-box .caption {
+	line-height: 20;
+}
+
+.fujiwara-box .caption {
 	line-height: 20;
 }
 
@@ -341,15 +347,32 @@ header {
 	margin-top: -20%;
 }
 
-.maru-box {
+.under-box {
+	display: flex;
 	width: 100%;
+}
+
+.maru-box {
+	width: 50%;
 	height: 300px;
 	overflow: hidden;
 }
 
 .maru-box img {
+	height: 100%;
+	
+}
+
+.fujiwara-box {
+	width: 50%;
+	height: 300px;
+	overflow: hidden;
+}
+
+.fujiwara-box img {
 	width: 100%;
 }
+
 
 /*フッター*/
 
@@ -396,13 +419,14 @@ footer p {
 
 	.navigation-dsgnpage nav ul li a {
 		font-size: 1.5em;
-		background-color: #ccc;
+		background-color: rgba(204,204,204,0.5);
 		padding: 10%;
 	}
 
 	.designs-box {
 		width: 90%;
-		margin: 2%;
+		margin: 0;
+		padding: 1%;
         box-sizing: border-box;
 	}
 
@@ -420,10 +444,14 @@ footer p {
 
 	.title {
 		height: 250px;
+		border: 0.5px solid #000;
 	}
 
 	.title h2 {
-		font-size: 1.5em;
+		height: 250px;
+		font-size: 1.2em;
+		text-align: center;
+
 	}
 
 	.KirsTen-box {
@@ -433,6 +461,10 @@ footer p {
 	.maru-box {
 		height: 150px
 	}
+	
+	.fujiwara-box {
+		height: 150px;
+	}
 
 	main {
 		width: 100%;
@@ -441,30 +473,54 @@ footer p {
     }
 
 	.OMAR-box .caption {
-		line-height: 9;
-		font-size: 0.5em;
+		line-height: 2;
+		font-size: 0.9em;
+		display: block;
+		margin-top: 15%;
 		height: 100%;
 	}
 
 	.tanaka-box .caption {
-		line-height: 25;
-		font-size: 0.2em;
+		line-height: 2;
+		display: block;
+		margin-top: 65%;
+		font-size: 0.9em;
+		height: 100%;
 	}
 
 	.meja .caption {
-		line-height: 14;
-		font-size: 0.2em;
+		line-height: 2;
+		display: block;
+		margin-top: 75%;
+		font-size: 0.9em;
 	}
 
 	.KirsTen-box .caption {
-		line-height: 10;
-		font-size: 0.2em;
+		line-height: 2;
+		display: block;
+		margin-top: 10%;
+		font-size: 0.9em;
 		height: 100%;
 	}
 
 	.maru-box .caption {
-		line-height: 18;
-		font-size: 0.2em;
+		line-height: 2;
+		display: block;
+		margin-top: 25%;
+		font-size: 0.9em;
+	}
+	
+	.fujiwara-box .caption {
+		line-height: 2;
+		display: block;
+		margin-top: 20%;
+		font-size: 0.9em;
+	}
+	
+	.caption {
+		padding: 2%;
+		text-align: left;
+		font-family: serif;
 	}
 
 	.mask {
@@ -475,10 +531,19 @@ footer p {
         height: 100%;
         width: inherit;
     }
+	
+	.meja img {
+		height: 100%;
+		object-position: 50% 40%;
+	}
     
     .KirsTen-box img {
         margin-top: 0;
     }
+	
+	.fujiwara-box img {
+		height: 100%;
+	}
     
     .maru-box .mask {
         margin-top: -5%;
