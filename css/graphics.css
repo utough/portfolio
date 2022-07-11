@@ -263,6 +263,12 @@ header {
 	opacity: 0;
 }
 
+.mask .caption {
+    font-size: 30px;
+	text-align: center;
+    line-height: 200px;
+}
+
 .gallery {
 	width: 235px;
 	height: 180px;
@@ -569,6 +575,14 @@ footer p {
 
 	.photoshop .text-box {
 		font-size: 0.8em;
+	}
+
+	/* 2022.0711　追記 */
+	.cards {
+		justify-content: center;
+	}
+	.cards .card:first-child {
+		margin-top: 15px;
 	}
 
 }
