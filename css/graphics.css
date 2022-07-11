@@ -24,7 +24,7 @@ body {
 }
 
 .top-page-box {
-	padding: 5%;
+	padding: 40px 5% 5% 5%;
 }
 
 header {
@@ -82,8 +82,6 @@ header {
 /*モーダル・hamburgerメニュー*/
 .modal-menus {
     margin-left: auto;
-    margin-right: 5%;
-    width: 10%;
 }
 
 .content  {
@@ -91,7 +89,6 @@ header {
     display: flex;
     margin-left: auto;
     text-align: right;
-    padding: 70%;
 }
 
 .content a:nth-child(1) {
@@ -253,14 +250,38 @@ header {
 	margin-top: 30px;
 }
 
-.gallery a {
+.card a:hover .mask {
+	opacity: 1;
+}
+
+.mask {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 0;
+	opacity: 0;
+}
+
+.gallery {
+	width: 235px;
+	height: 180px;
+	display: block;
 	overflow: hidden;
+	position: relative;
 }
 
 .gallery img {
 	width: 100%;
-	height: 178.5px;
 	object-fit: cover;
+}
+
+.gallery .akan {
+	height: 180px;
+}
+
+.gallery .photo {
+	height: 180px;
 }
 
 .card_title {
@@ -471,13 +492,12 @@ footer p {
 	}
 
 	.top-page-box h1 {
-		width: 100%;
+		width: 75%;
 		font-size: 2.5em;
 	}
     
     .modal-menus {
-        margin-right: 20%;
-        width: 15%;
+		margin-left: 0;
     }
     
     .modal_content {
